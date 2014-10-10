@@ -66,6 +66,7 @@ describe("Building", function(){
         tenant.addReference(contactOne);
         tenant.addReference(contactTwo);
         myBuilding.addTenant(myUnit, tenant);
+        console.log(units);
         expect(myUnit.available()).to.eql(true);
       });
 

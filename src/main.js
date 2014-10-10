@@ -117,7 +117,20 @@ menu.addItem('(Add your own feature ...)',
       console.log("Implement a feature that you find is useful");
     } 
 );
-
+/*
+menu.addItem('(implement me) Add tenant reference', 
+  function(tenant_name, ref_name, ref_contact) {
+      // Note: Don't create a new Tenant. Pick a name of exiting tenant.
+      // Find the corresponding tenant object and add reference. Reference
+      // is a new Person object.
+      console.log("Implement me. Show error if tenant is unknown. Note: a reference is a person");
+    },
+    null, 
+    [{'name': 'tenant_name', 'type': 'string'},
+    {'name': 'ref_name', 'type': 'string'},
+    {'name': 'ref_contact', 'type': 'string'}] 
+);
+*/
 // *******************************
 menu.addDelimiter('*', 40);
 
